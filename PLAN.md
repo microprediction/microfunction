@@ -21,7 +21,9 @@ Overall goal is the creation of a template micromanager that others can easily m
 
  - Create [microregistry](https://github.com/microprediction/microregistry) to abstract away most of the navigation crud. 
  
+### Higher-level abstractions 
 
+ - Create [microratings](https://github.com/microprediction/microratings) utilities to show how [Elo-ratings](https://microprediction.github.io/timeseries-elo-ratings/html_leaderboards/univariate-k_003.html) are a special case
 
 
 
