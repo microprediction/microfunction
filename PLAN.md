@@ -17,9 +17,34 @@ Overall goal is the creation of a template micromanager that others can easily m
 
  - Most likely integrate with [functions-framework-python](https://github.com/GoogleCloudPlatform/functions-framework-python) and create the template in [microfunction](https://github.com/microprediction/microfunction) with utilities in [microfunctions](https://github.com/microprediction/microfunctions) 
 
-### Navigation
+### Responder registry
 
- - Create [microregistry](https://github.com/microprediction/microregistry) to abstract away most of the navigation crud. 
+A mix of software responders and access to 
+ - Create [microregistry](https://github.com/microprediction/microregistry) similar to [offline](https://github.com/microprediction/offline) that periodically polls a database. 
+ - Also makes available the subset registered as ONNX models with a certain signature. 
+
+### Responder types
+
+Initially there are only two types, though likely more will be beneficial
+
+### iskater (stateless, point estimate)
+
+Maps list of float -> float and does not learn 
+- Typically used for point estimates of time series, but could be any operation R^n->R
+- Typically uses onnx runtime
+- Deployed via google cloud functions
+- Pre-trained and does not learn
+- Doesn't look at meta-data 
+
+### recommender (stateful, weighted samples)
+
+When supplied a finite list of MUIDs, and meta data dict, will enter a lottery with enumerated allowed_values
+- Expected to learn as it goes 
+- Looks at meta: allowed_values to decide if it is recommending or just choosing 
+
+
+
+ 
  
 ### Higher-level abstractions 
 
