@@ -51,10 +51,12 @@ If depth or timescale do not permit, or the set of suppliers is empty:
 0. Uses a forever function to return answer with no fan-out
 
 Otherwise...
+
 1. Receives request for point estimate and fans out to suppliers
 2. Stacks the supplier estimates and returns and answer
 
 Periodically... 
+
 4. Requests recommendation for suppliers, where the supervision data is success in future epochs (-depth, timescale+)
 5. Requests choice once suppliers are shortlisted, where the supervision data is success in future epochs (-depth, timescale+) 
 6. Peridically solves the cost-aware race-manager problem, by using the results of (3) and the horse race algorithm to determine relative ability. 
