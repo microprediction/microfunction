@@ -44,7 +44,8 @@ When supplied a finite list of MUIDs, and meta data dict, will enter a lottery w
 
 ### Benchmark iskater 
 
-Parameterized by a depth parameter which controls the depth of the rabbit-hole
+We provide a benchmark iskater that makes self-referential use of the ecosystem. It is parameterized by a depth parameter
+which controls the depth of the rabbit-hole, and also a timescale parameter that warns us from leaving the microprediction domain. 
 
 If depth or timescale do not permit, or the set of suppliers is empty: 
 0. Uses a forever function to return answer with no fan-out
