@@ -1,8 +1,8 @@
 
-## Goal: Create indestructible microprediction microeconomy
+## Goal: Create indestructible, viral, microprediction microeconomy
 How:
 
- - A. Rudimentary discovery, registration, credit system based on trusted central party (for now)
+ - A. Rudimentary discovery, registration, credit system based on trusted central party 
 
  - B. Template migration-friendly (ONNX) specialist services (endpoints) for:
         1. univariate time-series 
