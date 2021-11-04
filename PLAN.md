@@ -1,5 +1,25 @@
 
-Overall goal is the creation of a template micromanager that others can easily modify
+## Goal: Create indestructible microprediction microeconomy
+How:
+
+ - A. Rudimentary discovery, registration, credit system based on trusted central party (for now)
+
+ - B. Template migration-friendly (ONNX) specialist services (endpoints) for:
+        1. univariate time-series 
+        2. regression (ordinal, cts)
+        3. suggestion (categorical, unlimited)
+      Migration is essential for asymptotic performance and high volumetric use cases. 
+      
+ - C. Creation of template micromanager serving category (a) that uses the following strategy:
+         1. Open-ended suggestion of new approaches using B-1 
+         2. Online stacking 
+    
+ - D. Creation of template micromanager serving category B-2
+ - E. Creation of template micromanager serving category B-3 
+ 
+ Note that this becomes self-referential very quickly, since better E, D feed back into B. 
+
+
 
 ## Permissions
 
