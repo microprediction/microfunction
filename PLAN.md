@@ -22,6 +22,7 @@ Overall goal is the creation of a template micromanager that others can easily m
 A mix of software responders and access to 
  - Create [microregistry](https://github.com/microprediction/microregistry) similar to [offline](https://github.com/microprediction/offline) that periodically polls a database. 
  - Also makes available the subset registered as ONNX models with a certain signature. 
+ - BLOCKER: SKLEARNED not really working that well
 
 ## Responder types
 
