@@ -11,7 +11,7 @@ Overall goal is the creation of a template micromanager that others can easily m
 
 ## Calculations & scoring conventions 
 
- - Separately implement rolling [lottery](https://github.com/microprediction/lottery) calculations to avoid crude elsewhere. 
+ - Separately implement rolling [lottery](https://github.com/microprediction/lottery) calculations to avoid repeating elsewhere. 
 
 ### Endpoint deployment
 
