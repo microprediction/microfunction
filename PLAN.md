@@ -91,6 +91,7 @@ Very similar to the benchmark iskater except the top-level task is recommendatio
 ## Higher-level abstractions (applications) 
 
  - Create [microratings](https://github.com/microprediction/microratings) utilities to show how [Elo-ratings](https://microprediction.github.io/timeseries-elo-ratings/html_leaderboards/univariate-k_003.html) are a special case
+ - Create "tontine" to get user feedback on time-series models. 
 
 
 
